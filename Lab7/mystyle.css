@@ -1,0 +1,157 @@
+/*background */
+
+body{
+background-color:#F7F9FB;
+
+}
+p{
+    background-color:#1d395b
+}
+
+
+
+/* color foreground*/
+p{
+    color:white;
+}
+h1{
+    color:#74bee9;
+}
+
+
+/* list css rules using type and style*/
+#Schedule-List{
+    list-style-type:disc;
+    list-style-position:inside;
+    width:500px
+
+
+}
+li{
+    margin: 10px 0px 0px 0px;
+}
+
+/* table in contact form css rules */
+
+input#Name{
+  background-color: white;
+  padding: 6px;
+  border: 2px solid #74bee9;
+
+}
+
+
+input#Number{
+  background-color: white;
+  padding: 6px;
+  border: 2px solid #74bee9;
+
+
+}
+
+
+input#Email{
+
+  background-color: white;
+  padding: 6px;
+  border: 2px solid #74bee9;
+
+}
+
+
+input#Message{
+  background-color: white;
+  padding: 6px;
+  border: 2px solid #74bee9;
+
+}
+
+
+input#Submit-Button{
+  background-color: white;
+  padding: 6px;
+  border: 2px solid #74bee9;
+
+}
+
+
+
+#Table-Form{
+  text-align:left;
+  font-family: Georgia;
+  border-spacing: 10px 15px;
+  font-size: 100%;
+
+
+}
+
+    /* Image */
+
+#Profile-Img{
+    opacity:.8;
+    border-radius:10px;
+
+    float:left;
+    margin-right:10px;
+
+    width: 400px;
+    height:500px;
+}
+
+
+
+  /*  setting boarder color, style, width and radius to hobbies and ideal jobs */
+
+  p.Job{
+    font-family: Georgia;
+    background-color:#1d395b;
+    border-width: 5px;
+    border-style:solid;
+    border-color:#74bee9;
+    padding: 10px;
+    border-radius: 15px;
+
+
+
+  }
+  p.Hobbies{
+    font-family: Georgia;
+    background-color:#1d395b;
+    border-width: 5px;
+    border-style:solid;
+    border-color:#74bee9;
+    padding: 10px;
+    border-radius: 15px;
+
+
+
+  }
+
+  p.Intro{
+    background-color:#1d395b;
+    border-width: 5px;
+    border-style:solid;
+    border-color:#74bee9;
+    padding: 10px;
+    border-radius: 15px;
+
+
+
+  }
+
+
+  /* link styles */
+  a:link {
+    color: rgb(233, 21, 134);
+    text-decoration: none;}
+  a:visited {
+    color: black;}
+  a:hover {
+    color: rgb(233, 21, 134);
+    text-decoration: underline;}
+  a:active {
+    color: #6aa2e8;}
+  
+
+
+    

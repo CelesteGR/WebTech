@@ -1,0 +1,66 @@
+<html>
+	<head>
+  	  <title id="Title-Contact">Contact Me</title>
+		<link href="mystyle.css" type="text/css" rel="stylesheet" />
+
+	</head>
+
+	<body>
+	
+  	  <h1 id="Header-Contact">Contact Form</h1>
+    
+   	 <form action="./save_contact.php" method="get">
+
+
+
+
+
+
+		
+        <table>
+        <tr id="Name-Table">
+			<th>Name:</th>
+			<td><input type="text" id="Name" name="Name"  required="required"/></td>
+
+		</tr>
+
+
+
+		<tr>
+			<th>Phone Number:</th>
+			<td><input type="text" id="Number" name="Number" required="required"/><br/  >
+			<input type="radio" id="Home-Choice" name="type" value="Home" checked="checked" /> Home	
+			<input type="radio" id="Work-Choice" name="type" value="Home" checked="checked" /> Work </td>
+            
+		</tr>
+
+
+
+		<tr>
+
+			<th>Email:</th>
+			<td><input type="text" id="Email" name="Email" required="required"/></td>
+
+		</tr>
+
+		<tr>
+
+			<th>Message:</th>
+			<td><textarea id="Message" name="Message"  cols="17" > Enter your message...</textarea></td>
+
+		</tr>
+	
+
+ 		<tr>
+            
+                <td><input id="Submit-Button" type="submit" value="submit"></td>
+        </tr>
+
+           
+             
+       		 </table>
+    		</form>
+
+				
+	</body>
+</html>
