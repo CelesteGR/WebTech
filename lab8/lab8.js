@@ -1,7 +1,7 @@
 
 function getDataFromForm() {
-  var firstName = document.getElementsByName("fname")[0].value;
-  var lastName = document.getElementsByName("lname")[0].value;
+  var fname = document.getElementsByName("fname")[0].value;
+  var lname = document.getElementsByName("lname")[0].value;
 
 
   runAjax(firstName, lastName);
@@ -13,7 +13,7 @@ function runAjax(fname,lname) {
 
   var url = "./ajax.php";
 
-  var queryParams = "?firstName=" + encodeURIComponent(fname) + "&lastName=" + encodeURIComponent(lname);
+  var queryParams = "?fname=" + encodeURIComponent(fname) + "&lname=" + encodeURIComponent(lname);
 
   xhr.open("GET", url + queryParams, true);
 
