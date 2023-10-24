@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$db_host="gutierrezwebtechnologies.mysql.database.azure.com";//Change this
+$db_host="webdatabase.mysql.database.azure.com";//Change this
 $db_user="gutierrez";        //Change this
 $db_pass="Blue6884!";        //Change this
 $db_name="z_url_set_1";     //Do not change
