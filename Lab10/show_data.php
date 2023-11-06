@@ -25,15 +25,15 @@ if ($data_array === false) {
         }
     }
 
-    // Create an HTML table to display the data with a border
-    echo '<table border="1">';
+    // Create an HTML table with CSS styles for borders
+    echo '<table style="border-collapse: collapse;">';
     
     // Header row
-    echo '<tr><th>First Name</th><th>Last Name</th></tr>';
+    echo '<tr><th style="border: 1px solid black;">First Name</th><th style="border: 1px solid black;">Last Name</th></tr>';
     
     // Display data in the table
     foreach ($parsedFile as $entry) {
-        echo '<tr><td>' . $entry['first_name'] . '</td><td>' . $entry['last_name'] . '</td></tr>';
+        echo '<tr><td style="border: 1px solid black;">' . $entry['first_name'] . '</td><td style="border: 1px solid black;">' . $entry['last_name'] . '</td></tr>';
     }
     
     echo '</table>';
