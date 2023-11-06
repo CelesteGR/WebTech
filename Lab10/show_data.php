@@ -25,8 +25,8 @@ if ($data_array === false) {
         }
     }
 
-    // Create an HTML table to display the data
-    echo '<table>';
+    // Create an HTML table to display the data with a border
+    echo '<table border="1">';
     
     // Header row
     echo '<tr><th>First Name</th><th>Last Name</th></tr>';
@@ -39,4 +39,3 @@ if ($data_array === false) {
     echo '</table>';
 }
 ?>
-
