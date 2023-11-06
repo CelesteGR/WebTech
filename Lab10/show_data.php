@@ -1,4 +1,5 @@
 <?php
+
 // Specify the path to the data file in a non-public folder
 $file_path = '/home/site/wwwroot/non-public/data.txt';
 
@@ -11,8 +12,19 @@ if ($data_array === false) {
     // Create an HTML table to display the data
     echo '<table>';
     foreach ($data_array as $line) {
-        echo '<tr><td>' . $line . '</td></tr>';
+        // Split each line into first name and last name using a space as the delimiter
+        $name_parts = explode(' ', $line);
+
+        // Check if there are at least two parts (first name and last name)
+        if (count($name_parts) >= 2) {
+            $first_name = $name_parts[0];
+            $last_name = $name_parts[count($name_parts) - 1];
+            
+            echo '<tr><td>' . $first_name . '</td><td>' . $last_name . '</td></tr>';
+        }
     }
     echo '</table>';
 }
+
 ?>
+
